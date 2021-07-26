@@ -8,4 +8,4 @@ numpy
 sklearn
 pmdarima
 plotly
-tensorflow==2.1.0
+tensorflow==2.2
