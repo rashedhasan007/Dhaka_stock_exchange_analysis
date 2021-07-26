@@ -1,5 +1,6 @@
 pandas
 investpy
+streamlit==0.68.1
 fastai==1.0.61
 keras
 matplotlib
