@@ -1,6 +1,6 @@
 pandas
 investpy
-fastai
+fastai==1.0.61
 keras
 matplotlib
 numpy
