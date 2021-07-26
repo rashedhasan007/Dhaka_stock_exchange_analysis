@@ -1,0 +1,164 @@
+1626920187409	geckodriver	INFO	Listening on 127.0.0.1:62976
+1626920190441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rashed\\AppData\\Local\\Temp\\rust_mozprofilegLkv9a"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1626920238388	Marionette	INFO	Listening on port 57754
+1626920238666	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! 1626920437301	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rashed\\AppData\\Local\\Temp\\rust_mozprofilexRZPKV"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1626920446498	Marionette	INFO	Listening on port 50745
+1626920446735	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x590006,name=PHttpBackgroundChannel::Msg___delete__) Channel error: cannot send/recv
+
+[Parent 11400, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+[Parent 11400, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1626922217775	Marionette	INFO	Stopped listening on port 50745
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1626920441266	Marionette	INFO	Stopped listening on port 57754
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1626922227915	geckodriver	INFO	Listening on 127.0.0.1:49581
+1626922231189	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rashed\\AppData\\Local\\Temp\\rust_mozprofile3PYUXi"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1626922241891	Marionette	INFO	Listening on port 51340
+1626922242259	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1627195411299	geckodriver	INFO	Listening on 127.0.0.1:50835
+1627195414415	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rashed\\AppData\\Local\\Temp\\rust_mozprofileUHCNwe"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWork1627195451053	Marionette	INFO	Listening on port 62340
+1627195451363	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1627282570205	Marionette	INFO	Stopped listening on port 62340
+//modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+1627195445678	Marionette	INFO	Listening on port 50843
+1627195446064	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+  Stack:
+    timedFetch/<@resource://services-common/kinto-http-client.js:549:22
+timedFetch@resource://services-common/kinto-http-client.js:527:20
+request@resource://services-common/kinto-http-client.js:613:41
+execute@resource://services-common/kinto-http-client.js:2400:44
+_fetchChangeset@resource://services-settings/RemoteSettingsClient.jsm:1036:22
+_importChanges@resource://services-settings/RemoteSettingsClient.jsm:888:20
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:593:35
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1627282569966	Marionette	INFO	Stopped listening on port 50843
+sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+1627195476576	Marionette	INFO	Listening on port 55695
+1627195476826	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-695ddb44b9.min.js, line 94: Error: 3000ms timeout exceeded
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 180: Error: permitUnload is already running for this tab.
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 314: TypeError: state is undefined
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 314: TypeError: state is undefined
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1627282613330	Marionette	INFO	Stopped listening on port 55695
+	INFO	Listening on port 56181
+1627195782166	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 14196, Gecko_IOThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 524
+[Parent 14196, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+[Parent 14196, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1627282633385	Marionette	INFO	Stopped listening on port 56181
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+entParent.jsm, line 180: Error: permitUnload is already running for this tab.
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 180: Error: permitUnload is already running for this tab.
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 180: Error: permitUnload is already running for this tab.
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 314: TypeError: state is undefined
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 314: TypeError: state is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+[Parent 3352, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1627282647362	Marionette	INFO	Stopped listening on port 56218
+ver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+1627195945146	Marionette	INFO	Listening on port 60784
+1627195945705	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+[Parent 17352, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1627282660569	Marionette	INFO	Stopped listening on port 60784
+
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+1627195987370	Marionette	INFO	Listening on port 63457
+1627195987431	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:58539
+1627197418316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rashed\\AppData\\Local\\Temp\\rust_mozprofilel9gLP8"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1627197436636	Marionette	INFO	Listening on port 59936
+1627197436792	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1627282659957	Marionette	INFO	Stopped listening on port 59939
+ne 28: TypeError: this.docShell is null
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 28: TypeError: this.docShell is null
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1627282653637	Marionette	INFO	Stopped listening on port 59936
+627197450039	Marionette	INFO	Listening on port 49547
+1627197450216	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-695ddb44b9.min.js, line 94: Error: 3000ms timeout exceeded
+JavaScript error: chrome://marionette/content/proxy.js, line 222: TypeError: this.browser.driver.dialogObserver is null
+JavaScript error: chrome://marionette/content/proxy.js, line 222: TypeError: this.browser.driver.dialogObserver is null
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5A0023,name=PHttpChannel::Msg_OnStatus) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5A0013,name=PHttpChannel::Msg_OnStartRequest) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1627282666360	Marionette	INFO	Stopped listening on port 49547
