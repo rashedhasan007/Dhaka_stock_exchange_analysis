@@ -1,1 +1,10 @@
-
+pandas
+investpy
+fastai
+keras
+matplotlib
+numpy
+sklearn
+pmdarima
+plotly
+tensorflow
