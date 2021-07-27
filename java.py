@@ -127,6 +127,7 @@ st.dataframe(data=indicators, width=None, height=None)
 st.title("RSI Chart")
 st.write("The relative strength index (RSI) is a momentum indicator used in technical analysis that measures the magnitude of recent price changes to evaluate overbought or oversold conditions in the price of a stock or other asset. The RSI is displayed as an oscillator (a line graph that moves between two extremes) and can have a reading from 0 to 100.")
 st.write("The primary trend of the stock or asset is an important tool in making sure the indicator’s readings are properly understood. For example, well-known market technician Constance Brown, CMT, has promoted the idea that an oversold reading on the RSI in an uptrend is likely much higher than 30% and that an overbought reading on the RSI during a downtrend is much lower than the 70% level.")
+
 st.plotly_chart(ploty_graph(df.tail(int(rsi_volume))))
 
 
