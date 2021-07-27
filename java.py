@@ -58,7 +58,7 @@ st.sidebar.title("Setting for EOM")
 EOM_period=st.sidebar.slider("EOM n", 10, 50)
 index=stock_name.index(get_name)
 get_short=stock_index[index]
-print(get_short)
+
 df= investpy.get_stock_historical_data(stock=get_short,
                                         country='bangladesh',
                                         from_date='01/01/2010',
@@ -111,7 +111,10 @@ if model == 'Long Short Term Memory (LSTM)':
 
 
     
-
+df= investpy.get_stock_historical_data(stock=get_short,
+                                        country='bangladesh',
+                                        from_date='01/01/2010',
+                                       to_date='01/01/2020')
 
 
 df['RSI']=rsiFunc(df['Close'],n=int(rsi_period))
