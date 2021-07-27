@@ -8,5 +8,5 @@ pmdarima
 pycocotools
 plotly
 tensorflow==1.15.2
-numpy==1.18.1
+numpy==1.20.0
 scikit-learn==0.22.1
