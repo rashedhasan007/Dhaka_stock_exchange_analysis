@@ -62,7 +62,7 @@ def rsichart(title,df):
     ax2.axhline(70, linestyle='--', linewidth=1.5, color='grey')
     ax2.set_title(title)
     return fig
-def ploty_graph(df):
+def rsi_graph(df):
     fig = go.Figure([go.Scatter(x=df.index, y=df['RSI'])])
     fig.update_layout(xaxis_rangeslider_visible=False, width=1200, height=500)
     fig.add_hrect(y0=30, y1=30, line_width=5, fillcolor="red", opacity=1)
