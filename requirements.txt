@@ -2,12 +2,13 @@ pandas
 investpy
 streamlit==0.68.1
 fastai==1.0.61
-keras==2.1.6
+keras==2.3.1
+tensorflow-estimator==2.1.
 matplotlib
 pmdarima
 pycocotools
+tensorflow==2.1
 plotly
-tensorflow==1.13.0
 numpy==1.20.0
 scikit-learn==0.22.1
 h5py==2.10.0
