@@ -2,10 +2,10 @@ pandas
 investpy
 streamlit==0.68.1
 fastai==1.0.61
-keras
+keras==2.4
 matplotlib
 numpy
 sklearn
 pmdarima
 plotly
-tensorflow==2.2
+tensorflow==2.3.0
