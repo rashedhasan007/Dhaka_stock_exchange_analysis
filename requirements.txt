@@ -4,7 +4,6 @@ streamlit==0.68.1
 fastai==1.0.61
 keras==2.4
 matplotlib
-numpy==1.9.1
 sklearn
 pmdarima
 plotly
